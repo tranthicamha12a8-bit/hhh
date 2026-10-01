@@ -1,0 +1,61 @@
+import { CategoryInfo, CategoryId } from '../types';
+
+export const CATEGORIES: Record<CategoryId, CategoryInfo> = {
+  fire: {
+    id: 'fire',
+    name: 'Cháy nhà',
+    shortName: 'Cháy nhà',
+    icon: '🔥',
+    color: 'from-orange-500 to-red-600',
+    accentBg: 'bg-orange-500/10 text-orange-400 border-orange-500/30',
+    borderColor: 'border-orange-500/40',
+    description: 'Kỹ năng thoát hiểm hỏa hoạn, xử lý khói độc và dập lửa khẩn cấp',
+    questionCount: 10,
+  },
+  earthquake: {
+    id: 'earthquake',
+    name: 'Động đất',
+    shortName: 'Động đất',
+    icon: '🌎',
+    color: 'from-amber-600 to-yellow-600',
+    accentBg: 'bg-amber-500/10 text-amber-400 border-amber-500/30',
+    borderColor: 'border-amber-500/40',
+    description: 'Quy tắc "Cúi - Che chắn - Giữ chặt", phòng tránh vật rơi và dư chấn',
+    questionCount: 10,
+  },
+  gas: {
+    id: 'gas',
+    name: 'Rò rỉ gas',
+    shortName: 'Rò rỉ gas',
+    icon: '🛢️',
+    color: 'from-emerald-600 to-teal-600',
+    accentBg: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30',
+    borderColor: 'border-emerald-500/40',
+    description: 'Nhận biết mùi khí gas, tuyệt đối tránh tia lửa điện và di tản an toàn',
+    questionCount: 10,
+  },
+  elevator: {
+    id: 'elevator',
+    name: 'Kẹt thang máy',
+    shortName: 'Kẹt thang máy',
+    icon: '🛗',
+    color: 'from-blue-600 to-cyan-600',
+    accentBg: 'bg-blue-500/10 text-blue-400 border-blue-500/30',
+    borderColor: 'border-blue-500/40',
+    description: 'Bình tĩnh giữ sức, bấm chuông khẩn cấp và không tự ý cạy phá cửa',
+    questionCount: 10,
+  },
+  lightning: {
+    id: 'lightning',
+    name: 'Sét đánh',
+    shortName: 'Sét đánh',
+    icon: '⚡',
+    color: 'from-yellow-500 to-amber-500',
+    accentBg: 'bg-yellow-500/10 text-yellow-400 border-yellow-500/30',
+    borderColor: 'border-yellow-500/40',
+    description: 'Trú ẩn an toàn khi có dông, tránh cây cao đứng lẻ loi và đồ kim loại',
+    questionCount: 10,
+  },
+};
+
+export const CATEGORY_LIST = Object.values(CATEGORIES);

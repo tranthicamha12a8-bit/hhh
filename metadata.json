@@ -1,0 +1,6 @@
+{
+  "name": "thu-thach-ban-linh",
+  "description": "Thử Thách Bản Lĩnh - 101 Kỹ Năng Sinh Tồn: Mini game giáo dục giúp học sinh luyện tập kỹ năng xử lý 5 nhóm tình huống khẩn cấp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
